@@ -21,14 +21,15 @@
 
 <body>
 
+<!-- Preloader -->
+<div class="preloader">
+    <div class="spinner_wrap">
+        <div class="spinner"></div>
+    </div>
+</div>
+
 <div class="page-wrapper">
  	
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="spinner_wrap">
-            <div class="spinner"></div>
-        </div>
-    </div>
  	
     <!-- Main Header-->
     <header class="main-header header-style-one">
@@ -124,101 +125,135 @@
     <!--End Main Header -->
 
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/bg-5.jpg)">
+    <section class="page-title" style="background-image:url(images/background/bg-6.jpg)">
         <div class="auto-container">
             <ul class="bread-crumb">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
-                <li>Process</li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>Contact</li>
             </ul>
-            <h1>Process</h1>
+            <h1>Contact</h1>
         </div>
     </section>
     <!--End Page Title-->
 
-     <!-- Working Process -->
-     <section class="work-process-section sp-two">
+    <!-- Contact Form Section -->
+    <section class="contact-form-section sp-one">
         <div class="auto-container">
-            <!-- Section Title -->
-            <div class="sec-title text-center">
-                <div class="sub-title">How We Work</div>
-                <h1>Best way of working</h1>
-            </div>
-            <div class="row">
-                <!-- Work Process Block -->
-                <div class="col-lg-4 work-process-block">
-                    <div class="inner-box">
-                        <div class="left-side">
-                            <h5>Step 01</h5>
-                        </div>
-                        <div class="icon-box"><span class="flaticon-brain"></span></div>
-                        <h3>Your Imagination</h3>
-                        <div class="text">Soon as we schedule an appointment to meet. We're go over your ideas and sketch everything out for a rough start.</div>
-                        <!-- <div class="link-btn"><a href="#" class="theme-btn btn-style-three">Read More</a></div> -->
+            <div class="wrapper-box">
+                <div class="contact-form-area">
+                    <div class="sec-title mb-50 text-center">
+                        <div class="sub-title">Contact with us</div>
+                        <h1>Do you have any question? <br>give us a call</h1>
                     </div>
-                </div>
-                <!-- Work Process Block -->
-                <div class="col-lg-4 work-process-block">
-                    <div class="inner-box">
-                        <div class="left-side">
-                            <h5>Step 02</h5>
-                        </div>
-                        <div class="icon-box"><span class="flaticon-sketch"></span></div>
-                        <h3>Planning & Design</h3>
-                        <div class="text">We'll go over our plans and finalize our design entill you are 100% pleased. Have everything on paper, ready. </div>
-                        <!-- <div class="link-btn"><a href="#" class="theme-btn btn-style-three">Read More</a></div> -->
-                    </div>
-                </div>
-                <!-- Work Process Block -->
-                <div class="col-lg-4 work-process-block">
-                    <div class="inner-box">
-                        <div class="left-side">
-                            <h5>Step 03</h5>
-                        </div>
-                        <div class="icon-box"><span class="flaticon-approach"></span></div>
-                        <h3>Project Excecution</h3>
-                        <div class="text">This is when we fulfill your dreams! We schedule a perfect time to start. We arrive early and deliver on time. You are so close to your dream yard!</div>
-                        <!-- <div class="link-btn"><a href="#" class="theme-btn btn-style-three">Read More</a></div> -->
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <div id="form-messages"></div>
+                        <form method="post" action="inc/sendmail.php" id="ajax-contact">
+                            <div class="row clearfix">
+                                
+                                <!-- <div class="col-lg-12 form-group field">
+                                    <input type="text" id="name" name="username" placeholder="Your Name" required>
+                                </div>
+                                
+                                <div class="col-lg-12 form-group field">
+                                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                                </div>
+                                
+                                <div class="col-lg-12 form-group field">
+                                    <textarea id="message" name="message" placeholder="Write Message" required></textarea>
+                                </div> -->
+                            
+                                <div class="col-lg-12 form-group text-center field">
+                                    <a href="tel:7072106469" class="theme-btn btn-style-two border-anim-left"><span class="border-anim-right"></span>CALL NOW</a>
+                                </div>
+                                
+                            </div>
+                        </form>
+                            
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Approach Section -->
-    <!-- <section class="approach-section sp-two">
+    <!-- Contact Info Section -->
+    <!-- <section class="contact-info-section sp-two">
         <div class="auto-container">
             <div class="row">
-                
-                <div class="col-lg-4 approach-block">
+                <div class="col-lg-3 col-md-6 contact-info-block">
                     <div class="inner-box">
-                        <h2>Our Missions</h2>
-                        <div class="text">There are many variations of passages of available but the majority have suffered alteration in lipsum is simply free text for marker type of some.</div>
-                        <div class="image"><img src="images/resource/image-9.jpg" alt=""></div>
+                        <div class="wrapper-box">
+                            <h3>Austin</h3>
+                            <ul>
+                                <li>22 Texas West Hills</li>
+                                <li><a href="mailto:needhelp@nextin.com">needhelp@nextin.com</a></li>
+                                <li><a href="tel:+8806668880000">666 888 0000</a></li>
+                            </ul>
+                        </div>                            
                     </div>
                 </div>
-                
-                <div class="col-lg-4 approach-block">
+                <div class="col-lg-3 col-md-6 contact-info-block">
                     <div class="inner-box">
-                        <h2>Nextin Philosophy</h2>
-                        <div class="text">There are many variations of passages of available but the majority have suffered alteration in lipsum is simply free text for marker type of some.</div>
-                        <div class="image"><img src="images/resource/image-10.jpg" alt=""></div>
+                        <div class="wrapper-box">
+                            <h3>Boston</h3>
+                            <ul>
+                                <li>6 Federal Street Boston</li>
+                                <li><a href="mailto:needhelp@nextin.com">needhelp@nextin.com</a></li>
+                                <li><a href="tel:+8806668880000">666 888 0000</a></li>
+                            </ul>
+                        </div>
+                            
                     </div>
                 </div>
-                
-                <div class="col-lg-4 approach-block">
+                <div class="col-lg-3 col-md-6 contact-info-block">
                     <div class="inner-box">
-                        <h2>Our Vissions</h2>
-                        <div class="text">There are many variations of passages of available but the majority have suffered alteration in lipsum is simply free text for marker type of some.</div>
-                        <div class="image"><img src="images/resource/image-11.jpg" alt=""></div>
+                        <div class="wrapper-box">
+                            <h3>New York</h3>
+                            <ul>
+                                <li>88 Street Broklyn New York</li>
+                                <li><a href="mailto:needhelp@nextin.com">needhelp@nextin.com</a></li>
+                                <li><a href="tel:+8806668880000">666 888 0000</a></li>
+                            </ul>
+                        </div>                            
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 contact-info-block">
+                    <div class="inner-box">
+                        <div class="wrapper-box">
+                            <h3>Baltimore</h3>
+                            <ul>
+                                <li>7 Lombabr 60 Baltimore</li>
+                                <li><a href="mailto:needhelp@nextin.com">needhelp@nextin.com</a></li>
+                                <li><a href="tel:+8806668880000">666 888 0000</a></li>
+                            </ul>
+                        </div>                            
                     </div>
                 </div>
             </div>
         </div>
     </section> -->
 
-
-
+    <!-- Contact Map Section -->
+    <!-- <section class="contact-map-section">
+        <div class="outer-container">
+            <div class="map-outer">
+                <div class="map-canvas"
+                    data-zoom="12"
+                    data-lat="-37.817085"
+                    data-lng="144.955631"
+                    data-type="roadmap"
+                    data-hue="#ffc400"
+                    data-title="Envato"
+                    data-icon-path="images/icons/map-marker.png"
+                    data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End Map Section -->
 
     <!-- Main Footer -->
     <footer class="main-footer">
@@ -313,6 +348,7 @@
 <script src="js/element-in-view.js"></script>
 <script src="js/timeline.min.js"></script>
 <script src="js/TweenMax.min.js"></script>
+<script src="js/jqBootstrapValidation.js"></script>
 <script src="js/script.js"></script>
 
 <!--Google Map APi Key-->
