@@ -7,6 +7,8 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
+<link href="css/twentytwenty-no-compass.css" rel="stylesheet">
+<link href="css/twentytwenty.css" rel="stylesheet">
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -143,6 +145,14 @@
 
     <!-- Instagram Feed End -->
 
+	
+	<!-- Juxtapose ------------------------->
+<div class="auto-container">
+    <div id="container1">
+        <img src="images\slider\3-3.jpg">
+        <img src="images\slider\4-4.jpg">
+      </div>
+</div>
 
     <!-- Our Projects -->
     <section class="our-projects style-two sp-two">
@@ -376,6 +386,22 @@
             </div>
         </div>
     </section>
+	
+	        <!-- Juxtapose ------------------------->
+<div class="auto-container">
+    <div id="container3">
+        <img src="images\slider\lava-1.jpg">
+        <img src="images\slider\lava-2.jpg">
+      </div>
+</div>
+
+        <!-- Juxtapose ------------------------->
+        <!-- <div class="auto-container">
+            <div id="container2">
+                <img src="images\slider\turf-3.jpg">
+                <img src="images\slider\turf-4.jpg">
+              </div>
+        </div> -->
 
     <!-- Main Footer -->
     <footer class="main-footer">
@@ -455,7 +481,7 @@
 </div>
 <!--End pagewrapper-->
 
-<!--Scroll to top-->
+<<!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-angle-up"></span></div>
 <script src="js/instafeed.min.js"></script>
 <script src="js/custom.js"></script>
@@ -473,6 +499,25 @@
 <script src="js/timeline.min.js"></script>
 <script src="js/TweenMax.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/jquery.twentytwenty.js"></script>
+<script src="js/jquery.event.move.js"></script>
+
+<!--Call twentytwenty-->
+<script>
+    
+    $(window).load(function() {
+  $("#container1").twentytwenty();
+});
+
+$(window).load(function() {
+  $("#container2").twentytwenty();
+});
+
+$(window).load(function() {
+  $("#container3").twentytwenty();
+});
+
+</script>
 
 <!--Google Map APi Key-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk25E4mNfVIEt3tNl3K1HwNZVruVoFBlA"></script>
