@@ -7,6 +7,8 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
+<link href="css/twentytwenty-no-compass.css" rel="stylesheet">
+<link href="css/twentytwenty.css" rel="stylesheet">
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -426,6 +428,15 @@
             </div>
         </div>
     </section>
+    
+    
+    <!-- Juxtapose -->
+<div class="auto-container">
+    <div id="container1">
+        <img src="images\slider\1-1.jpg">
+        <img src="images\slider\2-2.jpg">
+      </div>
+</div>
 
     <!-- Testimonial Section -->
     <section class="testimonial-section sp-two">
@@ -687,6 +698,17 @@
 <script src="js/TweenMax.min.js"></script>
 <script src="js/TweenMax.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/jquery.twentytwenty.js"></script>
+<script src="js/jquery.event.move.js"></script>
+    
+<!--Call twentytwenty-->
+<script>
+    
+    $(window).load(function() {
+  $("#container1").twentytwenty();
+});
+
+</script>
 
 <!--Google Map APi Key-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk25E4mNfVIEt3tNl3K1HwNZVruVoFBlA"></script>
